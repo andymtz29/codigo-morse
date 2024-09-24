@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/premium-vector/border-template-met-groene-bladeren_1639-657.jpg?w=2000');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #f9f5f900;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.caja-resultado {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    white-space: pre-wrap;
+}
